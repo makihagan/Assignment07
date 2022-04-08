@@ -70,5 +70,6 @@ employees.addEventListener('click', (e) => {
         employees.deleteRow(e.target.parentElement.parentElement.rowIndex);
         totalRowCount = (employees.rows.length) - 1;
         empCount.innerHTML = `   Total Employees: ${totalRowCount}`;
+        $('id').focus();
     }
 })
